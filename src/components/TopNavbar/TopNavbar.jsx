@@ -18,34 +18,34 @@ const TopNavbar = () => {
       <SearchBar />
 
       {/* 4th Info Bar */}
-      <div className='w-full px-4 py-3 2xl:py-8 bg-gray-100'>
+      <div className='w-full px-4 py-3 bg-gray-100'>
         <div className='container mx-auto flex flex-wrap justify-between gap-3 sm:gap-0'>
           {/* Info Item 1 */}
-          <div className='flex items-center justify-center sm:justify-normal gap-3 text-gray-600 
+          <div className='flex items-center gap-3 text-gray-600 
           cursor-pointer w-full sm:w-1/2 lg:w-1/4 text-center lg:text-left p-2'>
-            <i className="fa-solid fa-globe text-[30px] text-[#F4B033] 2xl:text-6xl"></i>
-            <h1 className='text-sm font-semibold 2xl:text-2xl'>
+            <i className="fa-solid fa-globe text-[30px] text-[#F4B033]"></i>
+            <h1 className='text-sm font-semibold'>
               The best stocklot offers from 150 countries
             </h1>
           </div>
           {/* Info Item 2 */}
-          <div className='flex items-center justify-center sm:justify-normal gap-3 text-gray-600 cursor-pointer w-full sm:w-1/2 lg:w-1/4 text-center lg:text-left p-2'>
-            <i className="fa-solid fa-user-group text-[30px] text-[#F4B033] 2xl:text-6xl"></i>
-            <h1 className='text-sm font-semibold 2xl:text-2xl'>
+          <div className='flex items-center gap-3 text-gray-600 cursor-pointer w-full sm:w-1/2 lg:w-1/4 text-center lg:text-left p-2'>
+            <i className="fa-solid fa-user-group text-[30px] text-[#F4B033]"></i>
+            <h1 className='text-sm font-semibold '>
               More than 100,000 satisfied users
             </h1>
           </div>
           {/* Info Item 3 */}
-          <div className='flex items-center justify-center sm:justify-normal gap-3 text-gray-600 cursor-pointer w-full sm:w-1/2 lg:w-1/4 text-center lg:text-left p-2'>
-            <i className="fa-solid fa-percent text-[30px] text-[#F4B033] 2xl:text-6xl"></i>
-            <h1 className='text-sm font-semibold 2xl:text-2xl'>
+          <div className='flex items-center gap-3 text-gray-600 cursor-pointer w-full sm:w-1/2 lg:w-1/4 text-center lg:text-left p-2'>
+            <i className="fa-solid fa-percent text-[30px] text-[#F4B033]"></i>
+            <h1 className='text-sm font-semibold'>
               Offers cheaper by up to 90%
             </h1>
           </div>
           {/* Info Item 4 */}
-          <div className='flex items-center justify-center sm:justify-normal gap-3 text-gray-600 cursor-pointer w-full sm:w-1/2 lg:w-1/4 text-center lg:text-left p-2'>
-            <i className="fa-solid fa-handshake text-[30px] text-[#F4B033] 2xl:text-6xl"></i>
-            <h1 className='text-sm font-semibold 2xl:text-2xl'>
+          <div className='flex items-center gap-3 text-gray-600 cursor-pointer w-full sm:w-1/2 lg:w-1/4 text-center lg:text-left p-2'>
+            <i className="fa-solid fa-handshake text-[30px] text-[#F4B033]"></i>
+            <h1 className='text-sm font-semibold'>
               Direct contact to resellers and wholesalers
             </h1>
           </div>
